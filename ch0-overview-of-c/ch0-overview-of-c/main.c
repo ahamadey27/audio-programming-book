@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 //void basic_input(void);
-void test_01(void);
+void printMajorScale(void);
 
 int main(void)
 {
 	//basic_input();
-	test_01();
+	printMajorScale();
 	return 0;
 }
