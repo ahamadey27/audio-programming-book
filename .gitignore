@@ -1,0 +1,28 @@
+# Ignore Visual Studio temporary and build files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# OS generated
+Thumbs.db
+.DS_Store
+
+# OneDrive and temp
+~* 
+
+# Index files
+*.vsidx
