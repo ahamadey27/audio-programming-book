@@ -1,15 +1,11 @@
 #include <stdio.h>
 
-int main()
+//void basic_input(void);
+void test_01(void);
+
+int main(void)
 {
-	int a, b;
-	printf("Please enter a numer: ");
-	scanf("%d", &a);
-
-	printf("Please enter a second: ");
-	scanf("%d", &b);
-
-	printf("%d + %d = %d", a, b, a+b);
-
+	//basic_input();
+	test_01();
 	return 0;
 }

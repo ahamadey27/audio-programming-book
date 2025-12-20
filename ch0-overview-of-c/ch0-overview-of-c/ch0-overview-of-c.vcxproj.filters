@@ -18,5 +18,11 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="printMajorScale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicInput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
