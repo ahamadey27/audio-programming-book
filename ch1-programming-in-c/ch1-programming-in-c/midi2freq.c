@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "exercises.h"
 
-int main()
+void midi2freq()
 {
-	midi2freq();
-	return 0;
+	printf("midi2few script");
 }
