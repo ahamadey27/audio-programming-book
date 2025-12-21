@@ -13,13 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Exercises">
+      <UniqueIdentifier>{2ae5f84a-71df-43ad-b953-f298702749a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Listings">
+      <UniqueIdentifier>{5c54e2d2-c494-4e0f-8d83-df7758909d6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex121.c">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
     <ClCompile Include="midi2freq.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Listings</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

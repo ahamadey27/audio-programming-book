@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ex121.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="midi2freq.c" />
   </ItemGroup>
