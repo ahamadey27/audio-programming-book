@@ -33,6 +33,15 @@
     <ClCompile Include="midi2freq.c">
       <Filter>Source Files\Listings</Filter>
     </ClCompile>
+    <ClCompile Include="playground.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="basicUserInput.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="miditoFreqIneractive.c">
+      <Filter>Source Files\Listings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exercises.h">

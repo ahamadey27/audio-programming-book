@@ -3,7 +3,11 @@
 
 int main()
 {
-	midi2freq();
+	//midi2freq();
 	//sizeOf();
+	//pGround();
+
+	userInputatof();
+
 	return 0;
 }

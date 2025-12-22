@@ -3,5 +3,7 @@
 
 void midi2freq(void);
 void sizeOf(void);
+void pGround(void);
+void userInputatof(void);
 
 #endif

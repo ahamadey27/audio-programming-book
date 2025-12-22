@@ -8,7 +8,7 @@ void midi2freq()
 	double semitone_ratio;
 	double c0; //for freq of MIDI note 0
 	double c4; //freq of middle c
-	double frequency; //whcih we want to find...
+	double frequency; //which we want to find...
 	int midiNote; //...given this note
 
 	/*Calculate required numbers*/
