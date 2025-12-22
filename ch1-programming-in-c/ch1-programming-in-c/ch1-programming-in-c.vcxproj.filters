@@ -24,7 +24,7 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex121.c">
+    <ClCompile Include="ex1213.c">
       <Filter>Source Files\Exercises</Filter>
     </ClCompile>
     <ClCompile Include="midi2freq.c">
