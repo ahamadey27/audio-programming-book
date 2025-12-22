@@ -7,7 +7,8 @@ int main()
 	//sizeOf();
 	//pGround();
 
-	userInputatof();
+	//userInputatof();
+	midiToFreqInteractive();
 
 	return 0;
 }

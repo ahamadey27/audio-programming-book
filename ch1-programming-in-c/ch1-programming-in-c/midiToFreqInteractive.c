@@ -4,7 +4,12 @@
 #include <math.h> //for pow() function
 #include <stdlib.h>
 
-void miditoFreqIneractive()
+void midiToFreqInteractive()
 {
+	double c5, c0, semitone_ratio, freq;
+	int middleNote;
+	char message[256];
+	char* result; 
+
 
 }

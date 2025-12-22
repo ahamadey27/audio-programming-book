@@ -39,7 +39,7 @@
     <ClCompile Include="basicUserInput.c">
       <Filter>Source Files\Misc</Filter>
     </ClCompile>
-    <ClCompile Include="miditoFreqIneractive.c">
+    <ClCompile Include="midiToFreqInteractive.c">
       <Filter>Source Files\Listings</Filter>
     </ClCompile>
   </ItemGroup>

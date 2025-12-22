@@ -23,7 +23,7 @@
     <ClCompile Include="ex1213.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="midi2freq.c" />
-    <ClCompile Include="miditoFreqIneractive.c" />
+    <ClCompile Include="midiToFreqInteractive.c" />
     <ClCompile Include="playground.c" />
   </ItemGroup>
   <ItemGroup>
