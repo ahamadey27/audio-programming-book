@@ -11,3 +11,10 @@ void sizeOf(void)
 	printf("Size of float: %zu bytes\n", sizeof(float));
 	printf("Size of double: %zu bytes\n", sizeof(double));
 }
+
+void castingEx(void)
+{
+	int samp = 0; 
+	float fracsamp = 0.0f;
+	samp = (short)(fracsamp * 32767); //correct way to downcast float to short
+}

@@ -3,7 +3,7 @@
 
 int main()
 {
-	//midi2freq();
-	sizeOf();
+	midi2freq();
+	//sizeOf();
 	return 0;
 }

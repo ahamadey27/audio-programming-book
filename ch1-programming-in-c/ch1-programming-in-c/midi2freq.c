@@ -19,7 +19,7 @@ void midi2freq()
 
 	/*Freq of a given midi note*/
 	midiNote = 73;
-	frequency = c0 * pow(semitone_ratio, midiNote);
+	frequency = 440.0 * pow(2.0, (midiNote - 69) / 12.0);
 
 	printf("MIDI note %d has a frequency of %f\n", midiNote, frequency);
 }
