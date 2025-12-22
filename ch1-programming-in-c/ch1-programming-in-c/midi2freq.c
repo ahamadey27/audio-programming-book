@@ -7,19 +7,20 @@ void midi2freq()
 {
 	double semitone_ratio;
 	double c0; //for freq of MIDI note 0
-	double c5; //freq of middle c
+	double c4; //freq of middle c
 	double frequency; //whcih we want to find...
 	int midiNote; //...given this note
 
 	/*Calculate required numbers*/
 
-	semitone_ratio = pow(2, 1 / 12.0); //2 raised to the power of 1/12th to find semitone ratio of approx 1.0594631
-	c5 = 220.0 * pow(semitone_ratio, 3); // three semitones above low a of 220hz
-	c0 = c5 * pow(semitone_ratio, 5); //5 octaves above c0
+	semitone_ratio = pow(2, 1.0 / 12.0); //2 raised to the power of 1/12th to find semitone ratio of approx 1.0594631
+	c4 = 220.0 * pow(semitone_ratio, 3); // three semitones above low a of 220hz
+	c0 = c4 * pow(semitone_ratio, 5); //5 octaves above c0
 
-	/*Freq of a given midi note*/
-	midiNote = 73;
-	frequency = 440.0 * pow(2.0, (midiNote - 69) / 12.0);
+	double freq = 430.0; /* test value */
+	double fracmidi = log(freq / c0) / log(semitone_ratio);  /* fractional MIDI */
+	int midinote = (int)(fracmidi + 0.5);           /* nearest integer */
 
-	printf("MIDI note %d has a frequency of %f\n", midiNote, frequency);
+	printf("freq = %.2f Hz -> MIDI note %d (fractional %.3f)\n",
+		freq, midinote, fracmidi);
 }

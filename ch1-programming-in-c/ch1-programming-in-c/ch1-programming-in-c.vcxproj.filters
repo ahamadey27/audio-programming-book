@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Listings">
       <UniqueIdentifier>{5c54e2d2-c494-4e0f-8d83-df7758909d6d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{95b13441-a99c-4f7a-8484-dcc874ab3e94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
