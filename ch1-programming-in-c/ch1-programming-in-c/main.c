@@ -3,14 +3,19 @@
 
 int main()
 {
-	midi2freq();
+	//midi2freq();
 	//sizeOf();
 	//pGround();
 
 	//userInputatof();
 	//midiToFreqInteractive();
 
-	int cpsMidi(int argc, char* argv[]);
+	/* Example: call cpsMidi as if the program were invoked with a command-line
+	   argument. Change "60" to any MIDI note (0-127) or set up a different
+	   argv before calling. This lets you run the function from within
+	   Visual Studio without supplying command-line args. */
+	char *args[] = { "cpsmidi", "60" };
+	int result = cpsMidi(2, args);
 
-	return 0;
-}
+	return result;
+}					
