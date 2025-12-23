@@ -42,6 +42,9 @@
     <ClCompile Include="midiToFreqInteractive.c">
       <Filter>Source Files\Listings</Filter>
     </ClCompile>
+    <ClCompile Include="cpsmidi.c">
+      <Filter>Source Files\Listings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exercises.h">

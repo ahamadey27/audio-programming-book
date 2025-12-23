@@ -3,12 +3,12 @@
 
 int main()
 {
-	//midi2freq();
+	midi2freq();
 	//sizeOf();
 	//pGround();
 
 	//userInputatof();
-	midiToFreqInteractive();
+	//midiToFreqInteractive();
 
 	return 0;
 }
