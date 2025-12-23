@@ -10,5 +10,7 @@ int main()
 	//userInputatof();
 	//midiToFreqInteractive();
 
+	int cpsMidi(int argc, char* argv[]);
+
 	return 0;
 }

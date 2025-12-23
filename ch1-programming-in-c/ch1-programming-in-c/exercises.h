@@ -6,5 +6,6 @@ void sizeOf(void);
 void pGround(void);
 void userInputatof(void);
 void midiToFreqInteractive(void);
+int cpsMidi(int argc, char* argv[]);
 
 #endif
