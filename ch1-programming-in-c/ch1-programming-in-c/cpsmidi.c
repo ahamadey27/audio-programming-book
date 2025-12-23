@@ -5,6 +5,9 @@
 #include <math.h>
 
 int cpsMidi(int argc, char* argv[]) //arguments are argument count and argument vector w/ arrays
+
+//Argument argc is the name of the prgram
+//char* argv[] is the value that the user inputs
 {
 	double c5, c0, semitone_ratio;
 	double freq;
@@ -26,7 +29,7 @@ int cpsMidi(int argc, char* argv[]) //arguments are argument count and argument 
 
 	if (midiNote < 0)
 	{
-		printf("%s is a bad value.\n", argv[01]);
+		printf("%s is a bad value.\n", argv[01]); //argv[1] is what the user originally typed to prevent user typing in irrlevlent characters 
 		return 1;
 	}
 
